@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container>img{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+button{
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(72 91 211);
+    color: white;
+    cursor: pointer;
+}
+
+#customise__menu{
+    display: none;
+    grid-template-columns: 30% 30% 30%;
+    gap: 1em;
+    position: absolute;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    height: 65vh;
+    width: 30%;
+    right: 1%;
+    bottom: 10%;
+    padding: 10px;
+}
+
+.images{
+    cursor: pointer;
+    border-radius: 10%;
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+
+}
